@@ -1,0 +1,49 @@
+1.register
+(change GET to POST)
+
+http://localhost:5000/api/auth/register
+
+{
+"name":"swapna",
+"email":"user6@gmail.com",
+"password":"password@123"
+}
+
+2.login
+
+http://localhost:5000/api/auth/login
+
+{
+"email":"user6@gmail.com",
+"password":"password@123"
+}
+
+
+3.profile
+(change POST to GET)
+
+http://localhost:5000/api/auth/profile
+
+(paste token)
+
+4.workout-recommendation
+(change GET to POST)
+
+http://localhost:5000/api/ai/workout-recommendation
+
+{
+"age":25,
+"fitnessGoal":"six packs",
+"experience":"none"
+}
+
+5.fitness-insights
+
+http://localhost:5000/api/ai/fitness-insights
+
+{
+"totalWorkouts":3,
+"averageDuration":"1 hour",
+"totalCaloriesBurned":100
+}
+
